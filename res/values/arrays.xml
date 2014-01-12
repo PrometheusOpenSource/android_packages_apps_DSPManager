@@ -16,7 +16,7 @@
     Per article 5 of the Apache 2.0 License, some modifications to this code
     were made by the OmniROM Project.
 
-    Modifications Copyright (C) 2013 The OmniROM Project
+    Modifications Copyright (C) 2013 The AnimeROM Project
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -155,6 +155,7 @@
         <item>80Hz</item>
         <item>100Hz</item>
         <item>120Hz</item>
+        <item>135Hz</item>
         <item>150Hz</item>
         <item>180Hz</item>
         <item>200Hz</item>
@@ -170,6 +171,7 @@
         <item>80</item>
         <item>100</item>
         <item>120</item>
+        <item>135</item>
         <item>150</item>
         <item>180</item>
         <item>200</item>
