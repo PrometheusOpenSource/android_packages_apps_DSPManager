@@ -51,10 +51,8 @@ public class HeadsetService extends Service {
         /** Session-specific bassboost */
         private final BassBoost mBassBoost;
         /** Session-specific virtualizer */
-        private final Virtualizer mVirtualizer;*
-        /**
-         * Session-specific stereo widener
-         */
+        private final Virtualizer mVirtualizer;
+        /**Session-specific stereo widener */
         private final StereoWide mStereoWide;
 
         protected EffectSet(int sessionId) {
