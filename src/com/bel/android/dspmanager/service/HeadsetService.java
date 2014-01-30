@@ -315,6 +315,14 @@ public class HeadsetService extends Service {
         } catch (Exception e) {
             Log.e(TAG, "Error enabling equalizer!", e);
         }
+        
+        try {
+            session.mStereoWide.setEnabled(prefs.getBoolean("dsp.stereowide.enable", false));
+            session.mStereoWide.setStrength(
+                    Short.valueOf(prefs.getString("dsp.stereowide.mode", "0")));
+        } catch (Exception e) {
+            Log.e(TAG, "Error enabling stereowide!");
+        }
 
         try {
             session.mVirtualizer.setEnabled(prefs.getBoolean("dsp.headphone.enable", false));
